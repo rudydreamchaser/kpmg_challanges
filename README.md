@@ -48,5 +48,7 @@ python3 individual_key.py tags
 python3 individual_key.py mac
 python3 individual_key.py hostname
 
+To fetch all metadata in json format,
 
+python3 all_metadata.py
 
