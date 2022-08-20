@@ -48,6 +48,21 @@ python3 individual_key.py tags
 python3 individual_key.py mac
 python3 individual_key.py hostname
 
+Output:
+
+$ python3 metadata.py block-device-mapping
+ami
+ephemeral0
+ephemeral1
+root
+$ python3 metadata.py block-device-mapping/ami
+/dev/sda1
+$ python3 metadata.py block-device-mapping/ephemeral1
+sdc
+$ python3 metadata.py block-device-mapping/root
+/dev/sda1
+
+
 To fetch all metadata in json format,
 
 python3 all_metadata.py
