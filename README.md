@@ -10,7 +10,7 @@ Solution: We have used a python script to solve this problem
 
 Assumptions: Following are the assuptions we made to solve this issue.
 
-We need to run this script in the same ec2 instance for which we need the metadata details
+We need to run individual_key.py script in the same ec2 instance for which we need the metadata details
 
 How to run this script:
 
@@ -44,6 +44,9 @@ tags/
 To run this script we need to give the arg in command line,
 
 Example:
-python3 metadata.py tags
-python3 metadata.py mac
-python3 metadata.py hostname
+python3 individual_key.py tags
+python3 individual_key.py mac
+python3 individual_key.py hostname
+
+
+
